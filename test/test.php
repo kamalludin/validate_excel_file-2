@@ -4,7 +4,7 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 
 // Load Validate class
-use kamalamay\ValidateExcelFile\Validate;
+use kamalludin\ValidateExcelFile\Validate;
 
 try {
   // create object
@@ -12,7 +12,7 @@ try {
 
   // Enter the name of the file in the project directory
   // Example: "Type_A.xlsx"
-  $filename = "../Type_B.xlsx";
+  $filename = "../Type_A.xlsx";
 
   // call the function and receive the result
   $resultValidate = $validate->validateFile($filename);

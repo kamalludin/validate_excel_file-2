@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "kamalamay\\ValidateExcelFile\\": "src/"
+            "kamalludin\\ValidateExcelFile\\": "src/"
         } 
     }
 }

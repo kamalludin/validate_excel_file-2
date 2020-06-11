@@ -1,6 +1,6 @@
 <?php 
 
-namespace kamalamay\ValidateExcelFile;
+namespace kamalludin\ValidateExcelFile;
 
 class Validate
 {
