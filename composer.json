@@ -1,0 +1,20 @@
+{
+    "name": "kamalamay/avana1",
+    "description": "Package for validate xls and xlsx",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kamalamay",
+            "email": "kamal.amay14@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "kamalamay\\ValidateExcelFile\\": "src/"
+        } 
+    }
+}
